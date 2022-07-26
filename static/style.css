@@ -1,0 +1,60 @@
+.navbar {
+  background-color: rgba(255, 255, 255, 0.94);
+  border-bottom: 3px solid black;
+  backdrop-filter: blur(10px);
+  color: #000;
+}
+a.nav-link:any-link {
+  color: black;
+  border-radius: 2px;
+}
+a.nav-link {
+  font-family: "Titillium Web", sans-serif;
+}
+
+a.nav-link:hover {
+  color: white;
+  background-color: black;
+}
+body {
+  background-color: rgb(229, 242, 250);
+}
+.main {
+  padding-top: 80px;
+}
+.success {
+  background-color: rgb(2, 139, 2);
+  border: 1px solid green;
+  color: white;
+}
+#contact {
+  max-width: 800px;
+}
+button.btn {
+  color: white;
+  background-color: green;
+  border: 1px solid gray;
+}
+
+button.btn:hover {
+  background-color: rgb(1, 103, 1);
+  color: white;
+}
+
+p#head{
+  font-family: 'Oregano', cursive;
+}
+
+img.card-img-top{
+  object-fit: cover;
+  height: 20em;
+}
+
+img.full_layout{
+  object-fit: cover;
+  height: 50em;
+}
+
+body{
+  font-family: 'Epilogue', sans-serif;
+}
